@@ -33,21 +33,22 @@ Simulate the design to verify the serial shift operation.
 
 **PROGRAM**
 
-module EXP10(clk, sin, q);
-input clk;
-input sin;
-output [3:0] q;
-reg [3:0] q;
-always @(posedge clk)
-begin
-q[0] <= sin;
-q[1] <= q[0];
-q[2] <= q[1];
-q[3] <= q[2];
-end
-endmodule 
+module EXP10(clk, sin, q);        
+input clk;         
+input sin;           
+output [3:0] q;     
+reg [3:0] q;        
+always @(posedge clk)        
+begin          
+q[0] <= sin;          
+q[1] <= q[0];        
+q[2] <= q[1];       
+q[3] <= q[2];        
+end         
+endmodule          
+ 
+Developed by:DHARSHINI V    
 
-Developed by:DHARSHINI V         
 RegisterNumber:25010872         
 
 **RTL LOGIC FOR SISO Shift Register**
