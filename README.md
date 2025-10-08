@@ -47,13 +47,12 @@ q[3] <= q[2];
 end
 endmodule 
 
-Developed by:DHARSHINI V
-RegisterNumber:25010872
+Developed by:DHARSHINI V         
+RegisterNumber:25010872         
 
 **RTL LOGIC FOR SISO Shift Register**
 
 <img width="1920" height="1080" alt="Screenshot (44)" src="https://github.com/user-attachments/assets/ed5aa292-b061-44c6-b5d1-0727fe946fbd" />
-
 
 **TIMING DIGRAMS FOR SISO Shift Register**
 
